@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stacked: Gaming Tracker</title>
+  <meta name="description" content="Stacked: Gaming Tracker helps you track casino wins, losses, sessions, and bankroll across iPhone, iPad, and Mac." />
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --accent: #f59e0b;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Inter, system-ui, sans-serif;
+      background: linear-gradient(180deg, #020617, var(--bg));
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    header {
+      padding: 5rem 1.5rem 4rem;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+    header h1 {
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+      margin-bottom: 1rem;
+    }
+    header p {
+      color: var(--muted);
+      font-size: 1.15rem;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+    .cta {
+      display: inline-block;
+      padding: 0.9rem 1.4rem;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), #fbbf24);
+      color: #111827;
+      font-weight: 600;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 4rem 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: rgba(17,24,39,0.85);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 16px;
+      padding: 1.5rem;
+    }
+    .card h3 { margin-top: 0; }
+    footer {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      color: var(--muted);
+    }
+    .privacy h2 { margin-top: 2.5rem; }
+    .privacy p, .privacy li { color: #d1d5db; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Stacked: Gaming Tracker</h1>
+  <p>Track casino wins, losses, sessions, and bankroll with clarity and control — synced privately across all your Apple devices.</p>
+  <a class="cta" href="#">Coming Soon on the App Store</a>
+</header>
+
+<section>
+  <div class="grid">
+    <div class="card">
+      <h3>🎰 Casino Trips</h3>
+      <p>Create trips like <em>Vegas 2026</em>, set a starting bankroll, and track performance across days and nights.</p>
+    </div>
+    <div class="card">
+      <h3>🎲 Sessions & Games</h3>
+      <p>Log sessions and games like craps, blackjack, roulette — or create custom games anytime.</p>
+    </div>
+    <div class="card">
+      <h3>💵 Real Cash Balance</h3>
+      <p>Track tips, taxis, and other expenses to know exactly how much cash you really have left.</p>
+    </div>
+    <div class="card">
+      <h3>📊 Clear Insights</h3>
+      <p>View totals by session, trip, or game type. No spreadsheets. No guesswork.</p>
+    </div>
+    <div class="card">
+      <h3>☁️ Private iCloud Sync</h3>
+      <p>Secure CloudKit syncing across iPhone, iPad, and Mac. No accounts. Your data stays yours.</p>
+    </div>
+    <div class="card">
+      <h3>🧠 Built to Grow</h3>
+      <p>Designed to expand beyond casinos — perfect for card games, board games, and score tracking.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Privacy First</h2>
+  <p>Your data stays private and secure. Read our full <a href="privacy.html">Privacy Policy</a>.</p>
+</section>
+
+<footer>
+  <p>© 2026 Stacked: Gaming Tracker · <a href="#privacy">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
